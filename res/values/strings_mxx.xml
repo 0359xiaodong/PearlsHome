@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mxx_view_string_nonetwork">no network</string>
+    <string name="mxx_view_string_nomore">no more to load</string>
+    <string name="str_back_twice_exit">Press back again quickly to exit</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="menu_action_more">more</string>
+    <string name="menu_action_about">about</string>
+    <string name="str_loading">loading...</string>
+    <string name="str_about_author">Mixiaoxiao, an undergraduate of Beihang university.\nEmail:chyechye@foxmail.com\n\nBeihang University, previously known as Beijing University of Aeronautics and Astronautics (simplified Chinese: 北京航空航天大学; traditional Chinese: 北京航空航天大學, abbreviated as BUAA or Beihang) is a major public research university located in Beijing, China.It is a member of China\'s Project 211 and Project 985 group of key state universities, with a heavy focus on high level technological and scientific research. BUAA was founded on October 25, 1952 with an area of over 100 hectares, BUAA is one of China\'s leading universities on research and education. It is regarded as one of the best engineering universities in China and has a great influence on China\'s aeronautical and astronautical industry.</string>
+	<string name="str_about_app">珍珠生家园网是由在校珍珠大学生自行组建、管理的网站，珍珠生家园网于2012年12月31日正式创建。    珍珠生家园网坚持以“有爱走遍天下”为主题，以交流、分享的方式讲述自我的见闻，以此和受众共同成长；以“传承”为中心拓展开一系列的文字分享、图片欣赏、视频观看等内容，通过丰富的资源实现与受众的共享，让每一个受众都能从中得到启示。\n\n珍珠生家园网发展一年多以来，多次进行了资源的整合，广泛吸取受众的意见和建议，并持续不断地探索各种可能性。在未来的发展中，珍珠生家园网也将继续致力于开拓、整合与创新。\n\n珍珠生家园(www.zhenzhusheng.com)作为多人共同协作的群体博客，需要一个明确的协作规范，这里进行了一些总结，以便大家发布文章的时候能用的到。</string>
+</resources>

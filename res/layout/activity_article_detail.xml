@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticleDetailActivity" >
+
+    <ScrollView
+        android:id="@+id/detail_scrollview"
+        android:layout_width="match_parent"
+        android:clipToPadding="false"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/mxx_item_theme_color"
+                android:textColorHighlight="@color/mxx_item_theme_color_alpha"
+                android:textSize="18sp" />
+
+            <WebView
+                android:id="@+id/article_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/mxx_text_main_color"
+                android:textColorHighlight="@color/mxx_item_theme_color_alpha"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/article_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="#ffafafaf"
+                android:textColorHighlight="@color/mxx_item_theme_color_alpha"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detail_loading_layout" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/mxx_holo_progressbar_circle" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

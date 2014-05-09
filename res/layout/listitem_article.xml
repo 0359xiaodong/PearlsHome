@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/mxx_btn_card_white"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="article_title"
+            android:textColor="@color/mxx_item_theme_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/article_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="article_section"
+            android:textColor="@color/mxx_text_main_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/article_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="article_footer"
+            android:textColor="#ffafafaf"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</FrameLayout>
